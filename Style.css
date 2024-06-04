@@ -1,0 +1,122 @@
+.container {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    padding: 30px;     /* Espacio interno alrededor del contenido */
+    background-color: #92d639;
+    box-shadow: 0 0 10px rgba(114, 245, 88, 0.774); /* Sombra para darle profundidad */
+}
+.login-form {
+    max-width: 400px;  /* Ancho máximo del formulario */
+    margin: 0 auto;    /* Centra el formulario horizontalmente */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.login-form h2 {
+    text-align: center; /* Centra el encabezado */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px; /* Espacio inferior */
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Espacio inferior */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+body {
+    background: url(imagenes/fondo.jpeg);
+    color: rgb(0, 0, 0);
+    padding: 15px 0;
+    margin: 50px;
+}
+
+header {
+    background: url(imagenes/fondo.jpeg);
+    padding: 15px 19;
+    text-align: center;
+    font-style: initial;
+}
+h1 {
+    font-size: 30px;
+    font-style: Arial;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    font-style: initial;
+}
+h3{
+    font-size: 20px;
+    font-style: initial;
+}
+h4{
+    font-size: 20px;
+    font-style: initial;
+}
+h5{
+    font-size: 20px;
+    font-style: initial;
+}
+p1{
+    font-size: 15px;
+    font-style:initial;
+}
+p2{
+    font-size: 15px;
+    font-style:initial;
+}
+p3{
+    font-size: 15px;
+    font-style: initial;
+}
+p4{
+    font-size: 15px;
+    font-style: initial;
+}
+nav ul{
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    margin: 0 15px;  
+}
+.float-right{
+    float: right;
+    margin: 0 20px 20px 0; /* Espacio alrededor de la imagen */
+    max-width: 290px;       /* Ancho máximo de la imagen */
+}
+.float-center{
+    float: center;
+    margin: 0 20px 20px 0;
+    max-width: 1200px;
+}
+ul.styled-list {
+    list-style-type: square;  /* Tipo de marcador (cuadro) */
+    justify-content: left;
+}
+ol.styled-list {
+    list-style-type: decimal; /* Tipo de marcador (decimal) */
+    padding-right: 10px;       /* Espacio a la izquierda */
+}
